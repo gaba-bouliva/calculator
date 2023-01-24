@@ -116,3 +116,24 @@ div.operands-btns>div.operand:hover, div.math-operation-btns>div.operation:hover
   text-align: center;
   padding-top: 10px;
 }
+
+.delete-btns{
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+
+.delete-btns>button{
+  margin: 2px;
+  height: 35px;
+  width: 80px;
+  background-color: darkred;
+  border: 0px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
+
+.delete-btns>button:hover{
+  cursor: pointer;
+}
