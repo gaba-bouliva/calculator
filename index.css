@@ -1,0 +1,118 @@
+@font-face{
+ font-family:'calculator-digit-font';
+ src: url('fonts/digital-7.ttf');
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.title{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  border: 1px solid #000;
+
+}
+
+.calculator{
+  background-color: rgb(71, 70, 70);
+  height: 550px;
+  width: 400px;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.inputs-display, .result-display{
+  height: 50px;
+  width: 300px;
+  margin: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 34px;
+  font-family: 'calculator-digit-font';
+  border-radius: 5px;
+}
+
+.inputs-display>span, .result-display>span{
+  display: flex;
+  justify-content: end;
+  margin-right: 2px;
+}
+
+.operands-btns{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-center;
+}
+.math-operation-btns{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.operands-btns>div.operand, .math-operation-btns>div.operation {
+  height: 58px;
+  width: 58px;
+  background-color: #fff;
+  border-radius: 1px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+.cal-btns{
+  display: flex;
+  justify-content: center;
+}
+
+.operand{
+  margin: 5px;
+}
+
+div.operation, div.operand{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 2px;
+}
+
+div.operands-btns>div.operand:hover, div.math-operation-btns>div.operation:hover{
+  background-color: rgb(87, 225, 225);
+  cursor: pointer;
+  
+}
+#subtract{
+  font-size: 30px;
+}
+
+#dot{
+  font-size: 25px;
+}
+
+.footer{
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
