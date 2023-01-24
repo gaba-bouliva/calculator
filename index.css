@@ -6,6 +6,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  background-color: gray;
 }
 
 .title{
@@ -13,7 +14,6 @@ body{
   font-style: italic;
   text-align: center;
   margin-top: 5px;
-  
   color: #fff;
 }
 
@@ -22,7 +22,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 720px;
-  border: 1px solid #000;
 
 }
 
